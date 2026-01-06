@@ -1,4 +1,19 @@
-# Task 3-4: File Search Agent
+# File Search Agent
+
+An intelligent file search agent built with Langroid that uses LLM-powered reasoning to search through files and find content matching user queries. The agent can explore directories, examine file contents, and return relevant results with explanations.
+
+## Description
+
+This project implements a specialized **FileSearchAgent** that intelligently searches through files using natural language queries. The agent leverages file manipulation tools (ListDirTool, ReadFileTool) to explore directory structures and examine file contents, then uses LLM reasoning to determine relevance and return matching files.
+
+The agent is also wrapped as a **FileSearchTool** that can be used by other agents in a multi-agent system, enabling delegation of file search tasks.
+
+**Key Features:**
+- 🔍 Intelligent file search using LLM reasoning
+- 📁 Directory exploration and file content analysis
+- 🛠️ Tool-based architecture for extensibility
+- 🤖 Multi-agent compatible (can be used as a tool by other agents)
+- 📊 Detailed HTML logs for debugging and transparency
 
 ## Objective
 
